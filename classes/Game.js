@@ -8,13 +8,13 @@ class Game {
     displayScore() {
         textSize(24);
         fill(255);
-        text('Score: ' + this.score, 40, 40);
+        text('Score: ' + this.score, 60, 40);
     }
 
     displayLives() {
         textSize(24);
         fill(255);
-        text('Vidas: ' + this.lives, 40, 80);
+        text('Vidas: ' + this.lives, 60, 80);
     }
 
     displayGameOver() {
